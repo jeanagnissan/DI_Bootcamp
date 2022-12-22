@@ -1,0 +1,99 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 60%;
+    margin: 100px auto;
+    font-size: 18px;
+}
+
+.block{
+    background-color: #c0f7d7;
+    border: 3px solid rgb(93, 243, 93);
+    padding: 30px;
+}
+
+.pd{
+    margin: 10px;
+    line-height: 30px;
+}
+
+i{
+    text-decoration: underline;
+}
+
+.coul{
+    width: 20px;
+    height: 50px;
+}
+
+.dimen{
+    width: 20px;
+    height: 50px;
+    display: inline-block;
+    justify-content: stretch;
+}
+
+.bleu{
+    background-color: blue;
+    margin-top: 30px;
+}
+
+.blanc{
+    background-color: white;
+}
+
+.rouge{
+    background-color: red;
+}
+
+.cl-bl{
+    color: blue;
+}
+
+.gr-maj{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.trans{
+    color: white;
+    background-color: rgb(238, 28, 143);
+}
+
+.trans-two{
+    color: white;
+    background-color: rgb(92, 171, 224);
+    padding: 20px;
+    margin: 10px;
+}
+
+.one-div{
+    background-color: rgb(195, 197, 194);
+    height: 400px;
+    width: 100%;
+    border: 2px solid white;
+    display: block;
+    position: relative;
+}
+
+.on-div-chil{
+    background-color: rgb(138, 138, 245);
+    width: 200px;
+    height: 200px;
+    z-index: 0px;
+    position: absolute;
+}
+
+.on-div-chil-two{
+    background-color: rgb(247, 86, 58);
+    width: 200px;
+    height: 200px;
+    top: 5Px;
+    left: 5px;
+    z-index: 1;
+    position: absolute;
+}

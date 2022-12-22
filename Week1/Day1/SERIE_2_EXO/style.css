@@ -1,0 +1,59 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 60%;
+    margin: 100px auto;
+    background-image: url("images/bg_font.jpeg");
+    font-size: 18px;
+}
+
+.spa-pa{
+    line-height: 20px;
+}
+
+p{
+    text-align: justify;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pd{
+    margin: 10px;
+}
+
+.mg{
+    margin: 10px;
+}
+
+li:hover{
+    color: blue;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.pd-lg{
+    margin-top: 15px;
+}
+
+.pd-lg-lg{
+    margin-top: 30px;
+}
+
+
+/* img{
+    position: relative;
+    float: left;
+    width: ;
+} */
